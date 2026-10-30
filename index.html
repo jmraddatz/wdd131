@@ -4,14 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the main page for my WDD131 course.">
+    <meta name="description"
+        content="This is the WDD 131 - Dynamic Web Fundamentals home page for Makay Raddatz. It contains his brief bio with various links to document his learning in the course.">
     <meta name="author" content="Makay Raddatz">
-    <title>Main Page</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Makay Raddatz</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 
-<main>
-    <header>Hello</header>
-</main>
+<body>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://linkedin.com/in/john-raddatz/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng&id=p37#p37">Favorite
+                Scripture</a>
+            <a>Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Makay Raddatz</h1>
+        <section class="card">
+            <h2>About Me</h2>
+
+            <img src="images/profile.webp" alt="profile image" width="100">
+            <p>My name is Makay. I was born and raised in Utah. I am now studying web development through BYU-Pathway
+                Worldwide. I love my family and friends. When I'm not working or doing school, I do what I can to spend
+                time with them.</p>
+
+            <div class="place">
+                <h3>Utah</h3>
+                <div>
+                    <figure>
+                        <img src="images/salt-lake-city.webp" alt="Salt Lake City" width="250">
+                        <figcaption>Salt Lake City, Utah</figcaption>
+                    </figure>
+                    <p>Utah became an official state within the United States in 1896. It is on the western half of the
+                        country and is home to diverse types of terrain. There are mountains famous for the snow they
+                        get in
+                        the winter, and beautiful deserts.</p>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li>
+                        <a href="https://byui-cse.github.io/cse-ww-program/student/dev-standards.html">Frontend
+                            Development
+                            Standards</a>
+                    </li>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> | Makay Raddatz | Utah</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
 
 </html>
