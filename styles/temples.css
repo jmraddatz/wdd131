@@ -89,12 +89,12 @@ footer {
 .navbar a {
     display: none;
     color: var(--tertiary-color);
-    background-color: #fff;
+
     font-size: 20px;
     list-style-type: none;
     padding: 3px;
     text-decoration: none;
-    border: 1.5px solid #222;
+
 }
 
 .open a {
