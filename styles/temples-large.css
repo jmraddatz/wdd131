@@ -1,0 +1,23 @@
+@media (min-width: 37.8em) {
+    #menu {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navbar a {
+        display: block;
+        border: 1.5px solid #222;
+        padding: 9px;
+        font-size: 20px;
+
+    }
+}

@@ -39,7 +39,6 @@ header a:hover {
 
 main {
     display: grid;
-    /* text-align: center; */
     grid-template-columns: 1fr 1fr;
     margin: 0 1rem;
 }
