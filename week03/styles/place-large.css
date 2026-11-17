@@ -1,0 +1,59 @@
+@media screen and (min-width: 844px) {
+
+    .data,
+    .weather {
+        position: absolute;
+        border: 4px solid rgb(237, 215, 15);
+        padding-top: 4rem;
+    }
+
+    .hero {
+        border: 6px solid rgb(194, 28, 28);
+    }
+
+    .data {
+        top: 2.5rem;
+        left: 3rem;
+    }
+
+    .weather {
+        right: 6rem;
+        bottom: 5rem;
+    }
+
+    .w-heading h2 {
+        display: flex;
+        border-radius: 4px;
+    }
+
+    .w-heading {
+        position: absolute;
+        right: 20.8rem;
+        bottom: 16.7rem;
+        z-index: 1;
+    }
+
+    .d-heading {
+        left: 2.3rem;
+        top: 3.6rem;
+        z-index: 1;
+        border-radius: 4px;
+        width: 8rem;
+    }
+
+    h2 {
+        position: absolute;
+        text-align: left;
+        text-decoration: none;
+        background-color: #b4b3b3;
+    }
+
+    .w-heading h2::after {
+        content: "☀️";
+        padding-left: 12px;
+    }
+
+    .weather-icon {
+        display: none;
+    }
+}

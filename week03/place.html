@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Country Page</title>
+    <meta name="description" content="A description and set of data for a country">
+    <meta name="author" content="Makay Raddataz">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Zimbabwe</h1>
+
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/vic-falls-large3.webp" media="(min-width: 844px)">
+                <img src="images/vic-falls-small.webp" alt="Victoria Falls">
+            </picture>
+            <h2 class="d-heading">Data</h2>
+            <div class="data">
+                <ul>
+                    <li class="c1">Area:</li>
+                    <li class="c2">386,847 sq km</li>
+
+                    <li class="c1">Population:</li>
+                    <li class="c2">17.27 million</li>
+
+                    <li class="c1">Capital:</li>
+                    <li class="c2">Harare</li>
+
+                    <li class="c1">Languages:</li>
+                    <li class="c2">Shona, English, Ndebele</li>
+
+                    <li class="c1">Currency:</li>
+                    <li class="c2">US Dollars(USD), </li>
+                    <li class="c2">Zimbabwe Gold(ZiG)</li>
+
+                    <li class="c1">Time Zone:</li>
+                    <li class="c2">SAST UTC + 2</li>
+
+                    <li class="c1">Calling Code:</li>
+                    <li class="c2">+263</li>
+
+                    <li class="c1">Internet TLD:</li>
+                    <li class="c2">.zw</li>
+                </ul>
+            </div>
+            <div class="w-heading">
+                <h2>Weather</h2>
+                <img class="weather-icon" src="images/sunny-icon.svg" alt="Sunny Icon" media="(max-width: 500px)">
+            </div>
+            <div class="weather">
+                <ul>
+                    <li class="c1">Temperature:</li>
+                    <li class="c2" id="temperature">10 °C</li>
+
+                    <li class="c1">Conditions:</li>
+                    <li class="c2">Sunny</li>
+
+                    <li class="c1">Wind:</li>
+                    <li class="c2" id="wind-speed">9 km/h</li>
+
+                    <li class="c1">Wind Chill:</li>
+                    <li class="c2"><span id="windchill"></span> °C</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> | Makay Raddatz | Utah</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    </footer>
+
+</body>
+
+</html>
