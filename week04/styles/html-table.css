@@ -1,0 +1,38 @@
+* {
+    font-size: 30px;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 15px;
+}
+
+thead {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.subhead {
+    background-color: rgb(58, 57, 57);
+    padding: 20px;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(223, 223, 223);
+}
+
+td {
+    padding: 15px;
+    border: 1px solid gray;
+}
