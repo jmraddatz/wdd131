@@ -1,0 +1,119 @@
+:root {
+    --primary-color: rgb(199, 160, 32);
+    --secondary-color: rgb(255, 223, 229);
+    --tertiary-color: rgb(30, 30, 109);
+}
+
+header {
+    display: grid;
+    background-color: var(--primary-color);
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+
+header p {
+    font-size: 35px;
+    color: var(--tertiary-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav a:hover {
+    border: 2px solid var(--secondary-color);
+    color: #fff;
+    background-color: var(--tertiary-color);
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    color: var(--tertiary-color);
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    column-gap: 11.1rem;
+    margin: 45px;
+    place-items: center;
+}
+
+img {
+    width: 300px;
+    border: 5px solid var(--secondary-color);
+    border-radius: 22px;
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+section {
+    background-color: rgb(197, 196, 196);
+    padding: 1rem;
+    border-radius: 14px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Menu */
+
+#menu {
+    position: fixed;
+    right: 3rem;
+    top: 3.5rem;
+    font-size: 1.7rem;
+    border: 3px solid var(--tertiary-color);
+    padding: 10px;
+    color: var(--tertiary-color);
+}
+
+#menu::before {
+    content: "☰";
+}
+
+
+#menu.open::before {
+    content: "X";
+}
+
+.navbar a {
+    display: none;
+    color: var(--tertiary-color);
+
+    font-size: 20px;
+    list-style-type: none;
+    padding: 3px;
+    text-decoration: none;
+
+}
+
+.open a {
+    display: block;
+}
