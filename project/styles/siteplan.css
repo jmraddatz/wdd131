@@ -24,6 +24,12 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.name {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 15px 0;
+}
+
 .questions {
     margin-bottom: 5px;
 }
