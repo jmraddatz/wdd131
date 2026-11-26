@@ -1,0 +1,116 @@
+:root {
+    --primary: rgba(69, 69, 69, 0.829);
+    --secondary: rgba(10, 10, 96, 0.717);
+}
+
+header {
+    display: flex;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    margin-top: 8px;
+    background-color: var(--secondary);
+    color: #fff;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.questions {
+    margin-bottom: 5px;
+}
+
+.purpose,
+.questions {
+    border: 1px solid #fff;
+    padding: 0 15px 10px;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.colors h2 {
+    text-align: left;
+}
+
+.colors h2,
+.text {
+    grid-column: 1/3;
+}
+
+.lighttext {
+    background-color: var(--primary);
+    padding: 3px;
+}
+
+.darktext {
+    color: #030202;
+    background-color: rgb(69, 124, 252);
+    padding: 3px;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    border: 1px solid #fff;
+    padding: 0;
+}
+
+.main-blue {
+    background-color: var(--secondary);
+    padding: 1px;
+    color: #fff;
+}
+
+.accent-blue {
+    background-color: rgb(69, 124, 252);
+    padding: 1px;
+    color: #030202;
+}
+
+.gray {
+    background-color: var(--primary);
+    padding: 1px;
+    color: #fff;
+}
+
+.red {
+    background-color: rgb(235, 22, 22);
+    padding: 1px;
+    color: #030202;
+}
+
+.heading-font {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+}
+
+.typography {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.wireframe {
+    text-align: center;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 10px;
+}
